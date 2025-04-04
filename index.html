@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>休三驗屋</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; }
+        header { background: #004d40; color: white; text-align: center; padding: 20px; }
+        section { padding: 50px 20px; text-align: center; }
+        .container { max-width: 900px; margin: auto; }
+        .service, .pricing, .contact { background: #ffffff; margin: 20px 0; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        footer { background: #004d40; color: white; text-align: center; padding: 10px; }
+        img { max-width: 100%; height: auto; border-radius: 10px; }
+        button { background: #00796b; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #004d40; }
+        form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+        input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>休三驗屋</h1>
+        <p>專業驗屋，守護您的居住安全</p>
+    </header>
+    
+    <section class="service">
+        <div class="container">
+            <h2>服務內容</h2>
+            <p>我們提供「金、木、水、火、土」五大類別的專業驗屋服務，確保您的房屋安全無虞。</p>
+            <img src="https://via.placeholder.com/800x400" alt="驗屋服務示意圖">
+        </div>
+    </section>
+    
+    <section class="pricing">
+        <div class="container">
+            <h2>收費標準</h2>
+            <p>根據不同房型與面積，提供透明合理的收費標準。</p>
+            <button onclick="alert('請聯絡我們獲取詳細報價')">查看報價</button>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="container">
+            <h2>聯絡我們</h2>
+            <p>填寫表單或撥打電話，我們將盡快為您服務。</p>
+            <form>
+                <input type="text" placeholder="您的姓名" required>
+                <input type="email" placeholder="您的電子郵件" required>
+                <textarea placeholder="您的需求" rows="4" required></textarea>
+                <button type="submit">提交</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 休三驗屋. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
